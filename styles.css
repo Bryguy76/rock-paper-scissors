@@ -5,3 +5,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+  flex: 1 0 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  color: antiquewhite;
+  background-image: linear-gradient(45deg, rgb(59, 86, 139), rgb(63, 63, 63));
+}
+
+.title-section {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.game-section {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5rem;
+}
+
+.player {
+  width: 600px;
+  height: 600px;
+  border: solid wheat 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
