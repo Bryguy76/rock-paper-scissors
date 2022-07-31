@@ -23,7 +23,15 @@ function getComputerChoice() {
 
 function checkWinner(playerScore, computerScore) {
   if (playerScore == 2) {
+    gameText.textContent = 'You win!';
+    rockButton.disabled = true;
+    paperButton.disabled = true;
+    scissorsButton.disabled = true;
   } else if (computerScore == 2) {
+    gameText.textContent = 'You lose...';
+    rockButton.disabled = true;
+    paperButton.disabled = true;
+    scissorsButton.disabled = true;
   } else return;
 }
 
@@ -93,6 +101,9 @@ function resetGame() {
   computerMove.textContent = "I'm thinking...";
   document.querySelector('.playerScore').textContent = playerScore;
   document.querySelector('.computerScore').textContent = computerScore;
+  rockButton.disabled = false;
+  paperButton.disabled = false;
+  scissorsButton.disabled = false;
 }
 
 rockButton.addEventListener('click', function () {
