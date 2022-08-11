@@ -92,7 +92,7 @@ function round(playerChoice, computerChoice) {
     return;
   } else return;
 }
-
+//add comment for merge test
 function resetGame() {
   playerScore = 0;
   computerScore = 0;
@@ -118,3 +118,5 @@ scissorsButton.addEventListener('click', function () {
 resetButton.addEventListener('click', function () {
   resetGame();
 });
+
+//add comment for merge test
