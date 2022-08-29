@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(59, 86, 139);
 }
 
 .main-container {
@@ -58,8 +59,8 @@ body {
 }
 
 .player {
-  width: 600px;
-  height: 400px;
+  width: 30rem;
+  height: 20rem;
   /* border: solid wheat 5px; */
   display: flex;
   flex-direction: column;
